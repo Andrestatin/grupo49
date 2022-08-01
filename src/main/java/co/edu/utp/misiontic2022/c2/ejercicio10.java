@@ -39,13 +39,18 @@ public class ejercicio10 {
                                 
                                 if (num==2) {
                                         System.out.println(" tiene 28 días");
+                                        i=13;
                                         }
+                                
                                 else if(num==4||num==6||num==9||num==11){
                                         System.out.println(" tiene 30 días");
+                                        i=13;
                                         }
                                 else{
                                         System.out.println(" tiene 31 días");
+                                        i=13;
                                         }
+                        
                         }
                         
                 }

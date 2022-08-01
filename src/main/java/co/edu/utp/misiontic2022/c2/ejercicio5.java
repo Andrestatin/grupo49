@@ -6,8 +6,9 @@ public class ejercicio5 {
     public static void main(String[] args) {
         Scanner mayus= new Scanner(System.in);
         System.out.println("Introduzca una letra: ");
-        String letra= mayus.nextLine();
-        if(letra.compareTo("A")>=0 && letra.compareTo("Z")<= 0 && letra=="Ñ") {
+        char letra= mayus.next().charAt(0);
+        //if(letra.compareTo("A")>=0 && letra.compareTo("Z")<= 0 && letra=="Ñ") {
+        if(Character.isUpperCase(letra)){
             System.out.println("La letra "+letra+" es mayúscula");
     }
         else
